@@ -1,0 +1,59 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(16, 37, 60);
+}
+
+#root {
+  /* background: linear-gradient(147deg, rgb(196, 232, 253) 32%, rgba(255,162,87,1) 78%, rgba(254,72,0,1) 100%) no-repeat center center; */
+  /* background: linear-gradient(rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237)) no-repeat center center; */
+
+
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%) no-repeat center center;
+
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  min-height: 100vh;
+  position: relative;
+
+  overflow: hidden;
+}
+
+/* For mobile menu */
+.fixed-position {
+  position:fixed;
+  max-width: 100%;
+}
+
+.hero_text {
+  background-image: url('./../Images/sunset.webp');
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-section-image {
+  /* background: radial-gradient(circle, rgba(0,37,82,1) 0%, rgba(26,43,116,1) 54%, rgba(0,1,27,1) 100%); */
+
+  background: url('./../Images/about.webp') no-repeat center center;
+  background-size: cover;
+  
+}
+
+.offers_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;     
+}
+
+/* Mobile navigation menu */
+#nav_panel {
+  transition: .3s ease-in-out;
+}
