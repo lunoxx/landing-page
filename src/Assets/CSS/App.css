@@ -9,10 +9,6 @@ html {
 }
 
 #root {
-  /* background: linear-gradient(147deg, rgb(196, 232, 253) 32%, rgba(255,162,87,1) 78%, rgba(254,72,0,1) 100%) no-repeat center center; */
-  /* background: linear-gradient(rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237)) no-repeat center center; */
-
-
   background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%) no-repeat center center;
 
   
